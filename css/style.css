@@ -42,10 +42,27 @@ h2{
 /* Navigation */
 
 nav > ul{
+    min-width: 200px;
     list-style-type: none;
     display: flex;
     position: fixed;
+    justify-content: space-between;
     z-index: 1;
+    top: 60px;
+    right: 30px;
+}
+
+ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 
 /* Section */
