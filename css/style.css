@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Generics */
@@ -36,6 +37,15 @@ h2{
 
 .c-green{
     color: #008000;
+}
+
+/* Navigation */
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    z-index: 1;
 }
 
 /* Section */
