@@ -11,3 +11,21 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* Section */
+
+section{
+    height: 100vh;
+}
+
+.bg-red{
+    background-color: #f00;
+}
+
+.bg-green{
+    background-color: #008000;
+}
+
+.bg-yellow{
+    background-color: #ff0;
+}
