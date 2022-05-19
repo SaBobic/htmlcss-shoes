@@ -12,11 +12,11 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-/* Section */
-
-section{
-    height: 100vh;
+h2{
+    font-size: 50px;
 }
+
+/* Utils */
 
 .bg-red{
     background-color: #f00;
@@ -28,4 +28,30 @@ section{
 
 .bg-yellow{
     background-color: #ff0;
+}
+
+.c-yellow{
+    color: #ff0;
+}
+
+.c-green{
+    color: #008000;
+}
+
+/* Section */
+
+section{
+    height: 100vh;
+    position: relative;
+}
+
+/* Article */
+
+article{
+    width: 900px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
